@@ -265,16 +265,38 @@ Write Simple Validations
 <input type="radio"><br/><br/>
 <input type="checkbox"><br/><br/>
 
-To select one radio button out of 2 options, we need to bind it with name attribute, only then <form> tag will select one option. without value attribute, in the browser, you will see only petChoice=on, and we do not want it, so we use va
+To select one radio button out of 2 options, we need to bind it with name attribute, only then <form> tag will select one option. without value attribute, in the browser, you will see only petChoice=on, and we do not want it, so we use value attribute. 
 
 <form>
 <label for="dogs"> Dogs:</label>
- <input type="radio" id="dogs" name="PetChoice" value="catChoice">
+ <input type="radio" id="dogs" name="PetChoice" value="DogChoice">
  <label for="cats"> Cats:</label>
-<input type="radio" id="cats" name="PetChoice">
+<input type="radio" id="cats" name="PetChoice" value="CatChoice">
 <input type="submit">
 </form>
- 
+
+ ## <select> tag 
+	-to create dropdown menues. Inside the select tag, we use <option> tag so that we can have lots of menues. name attribute need to be added inside select tag, if we want to see select option in the url. without name attribute, nothing will appear in browser regarding color. 
+<p>What is your favorite color?</p>
+<select name="color">
+	<option>Red</option>
+	<option>Green</option>
+	<option>Yellow</option>
+</select>
+	If we use emoji, inside option tag, we will not get proper emotion in url, we will get something like %3a%29 and we don't want it. So, we use value attribute inside <option> tag.
+	
+<p>What is your mood?</p>
+<select name="MoodSelection">
+	<option value="happy">:)</option>
+	<option value="neutral">:|</option>
+	<option value = "sad">:(</option>
+</select> </br>
+
+## what is <textarea> ? 
+
+The HTML <textarea> element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form. Need to use name attribute, otherwise it will not be visible to url
+Example:  <textarea name="textarea"rows="10" cols="50">
+	   Write something here indise textarea</textarea>
 
 
 
