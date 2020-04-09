@@ -165,8 +165,116 @@ Answer: The URL of the embeddable content.
 </table>
 
 
+### <form> tag 
+	Use the <form></form> tag
+	       *     <form action="/my-form-submitting-page" method="post">
+                      <!-- All our inputs will go in here -->
+                      </form>
+	       *  action - the URL to send form data to
+               *   method - the type of HTTP request 
+	google search is a get request 
+	post request to send data to database and get data from databsae: facebook loging, twitter login
 
 
+	
+	
+      ##  Use the <input> tag
+  The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user;
+      
+<input type="text">
+
+<input type="date">
+
+<input type="color">
+
+<input type="file">
+
+<input type="checkbox">
+      
+      
+  ## Use the <label></label> tag
+  
+  <h1>Sign In</h1>
+
+<form action="/sign-in-url" method="post">
+    <input type="text">
+    <input type="password">
+    <button>Login</button>
+</form>
+
+* <input type="text" placeholder="username">
+ here, placeholder is used to fill the box temporarily
+	
+Write Simple Validations
+## another form 
+<!-- action - where the form send data to-->
+<!-- method - what http method(get/post) -->
+<h1>Login Form </h1>
+<form action= "http://wikipedia.com" method="get">
+<input  name= "username" type="text" placeholder="username"><br/><br/>
+<input  name= "password" type="password" placeholder="password"><br/><br/>
+<input type="date"><br/><br/>
+<input type="color"><br/><br/>
+<input type="file"><br/><br/>
+<input type="checkbox"><br/><br/>
+<input type="submit">
+</form>
+
+### name attribute: Name of the input form control. Submitted with the form as part of a name/value pair.
+
+<form action="/sign-in-url" method="post">
+    <label>Username: <input type="text"></label>
+    <label>Password: <input type="password"></label>
+    <button>Login</button>
+</form>
+
+## Label Syntax : helpful for detection by visually impaired people
+<form action="/sign-in-url" method="post">
+    <label>Username: <input type="text"></label>
+    <label>Password: <input type="password"></label>
+    <button>Login</button>
+</form>
+	### Alternate syntax, using "for" and  "id" attributes: Here for and id need to be matched. for is used inside <label> tag , and id is used inside <input> tag connecting label with input. It will help visually impaired people.
+<form action="/sign-in-url" method="post">
+    <label for="username">Username:</label>
+    <input id="username" type="text">
+    <label for="password">Password:</label>
+    <input id="password" type="password">
+    <button>Login</button>
+</form>	
+        
+# custom validation
+
+- The 'required' attribute validates that an input is not empty
+- There are also type validations.  Try changing "type" from "text" to "email"
+------------
+ <label for="emailforId">Email:</label>
+	<input  id ="emailforId" name= "email" type="email" 
+	 placeholder="username" required><br/><br/>
+
+---------
+<form action="/sign-in-url" method="post">
+    <label for="email">Email:</label>
+    <input id="email" type="email" required>
+    <label for="password">Password:</label>
+    <input id="password" type="password" required>
+    <button>Login</button>
+</form>
+---------------------------------
+
+<input type="radio"><br/><br/>
+<input type="checkbox"><br/><br/>
+
+To select one radio button out of 2 options, we need to bind it with name attribute, only then <form> tag will select one option. without value attribute, in the browser, you will see only petChoice=on, and we do not want it, so we use va
+
+<form>
+<label for="dogs"> Dogs:</label>
+ <input type="radio" id="dogs" name="PetChoice" value="catChoice">
+ <label for="cats"> Cats:</label>
+<input type="radio" id="cats" name="PetChoice">
+<input type="submit">
+</form>
+ 
 
 
 
