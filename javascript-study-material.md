@@ -4,4 +4,9 @@
   -  console.log(), 
   -  prompt(),
   -  alert() 
-    - Numbers
+ ### Primitives
+ 1. Numbers
+ 2. Strings
+ 3. Booleans
+ 4. null 
+ 5. undefined 
