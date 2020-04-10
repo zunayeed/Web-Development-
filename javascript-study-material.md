@@ -8,8 +8,14 @@
  ### Primitives
  1. Numbers
  2. Strings: 
-  -  Single or double quotes ok, 
-  -  escape chartacter starts with backslash "\"
+  - Single or double quotes ok, 
+  - escape chartacter starts with backslash "\"
+  - Strings have length property "helloworld".length 
+  - Access individual characters "Hello"[0] // h
+  -"zunayeed"[0]  // z
+  
  3. Booleans
  4. null 
  5. undefined 
+ ### Variables 
+ 
