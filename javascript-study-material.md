@@ -23,4 +23,5 @@
   -  camelCase(java scripts supports camelCase)
   -  snake_case(underscore between words)
   -  kebab-case(dash between words)
+- Comments in js: //
  
