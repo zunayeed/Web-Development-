@@ -18,4 +18,10 @@
  4. null 
  5. undefined 
  ### Variables 
+ var name = "zunayeed";
+ 
+ * Convention: 
+-  camelCase(java scripts supports camelCase)
+-  snake_case(underscore between words)
+-  kebab-case(dash between words)
  
