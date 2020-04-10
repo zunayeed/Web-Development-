@@ -111,6 +111,185 @@ background-size:cover// it will ensure taking up entire body
 }
 * shortcut syntax of border:  border: width style color;
    -  example: border: 5px solid purple;
+   -   border: 2px dashed purple;
+   ...................---------------------------------------
+   
+   
+ Aboutme.htlm:   
+   <!DOCTYPE html>
+<html>
+<head>
+	<title>About Zunayeed</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+	<h1>Zunayeed Kamal</h1
+	<h4>My Hobbies </h4>
+	<ul>
+		<li >Learning CSS</li>
+		<li>Learning Java Core</li>
+		<li >Learing Springboot</li>
+		<li>Learing Advanced JDBC part 2</li>
+	</ul>
+</body>
+</html>
+--------------------------------------------------------------------
+in app.css 
+
+h1{
+	color:#FF001A;
+	/*border-color: purple;
+	border-width: 5px ; 
+	border-style: solid;*/
+	/*border: 5px solid purple;*/ 
+	border: 2px dashed purple;  
+}
+li{
+	color:rgb(0,255,0);
+}
+h4 {
+	color:rgba(0,255,200,.5);
+	background: rgb(255,120,80);
+}
+body {
+  background: pink; 
+    /* background:url(https://thenypost.files.wordpress.com/2020/04/moana-the-rock-01.jpg?quality=90&strip=all&w=606);
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+   
+   
+----------------------------------------------------------------------   
+
+# 3 CSS Selectors: element, id, class 
+
+ 1. Element Selector: 
+Select all instances of a given element. An HTML element usually consists of a start tag and an end tag, with the content inserted in between:
+<tagname>Content goes here...</tagname>
+
+The HTML element is everything from the start tag to the end tag:
+Ex. <p>My first paragraph.</p>
+
+Here we have 2 divs and both divs have 2 paragragp,we slelect both divs to be purple and we get 2 purple divs. 
+<div>
+  <p>You say yes</p>
+  <p>I say no</p>
+</div>
+
+<div>
+  <p>You say goodbye</p>
+  <p>I say hello </p>
+</div>
+
+div{
+  background: purple;
+}
+p {
+  color: yellow;
+}
+ -------------------------------------
+ #  ID Selector:
+Selects an element with a given ID.  Only one per page!We can have multiple id in a page, as long as they appear only once.
+<li id = special><input type="checkbox" name=""> Study CSS</li>
+#special{color: yellow;}
+
+#  Class Selector 
+Select all elements with a given class. If we want to select half of the li in one way, and other half of the li in different ways, we go for class selector. It is just like an id and we can apply it to any number of times.
+
+----------------------------------------------------------------
+<ul>
+		<li class = "completed">
+			<input type="checkbox" name=""> Buy Groceries
+		</li>
+		<li class = "completed">
+			<input type="checkbox" name=""> Watch Movies
+		</li>
+		<li id = special>
+			<input type="checkbox" name=""> Study CSS
+		</li>
+	</ul>
+	--------------------------------------
+.completed{
+	text-decoration: line-through;
+}
+------------------------------------------------------
 
 
- 
+
+-  The text-decoration property specifies the decoration added to text.It can be: 
+*  text-decoration: overline;
+*  text-decoration: line-through;
+*  text-decoration: underline;
+*  text-decoration: underline overline;
+
+----------------------------------------------------------
+	you can add  "checked" to checkbox in order to make the box checked while loading the page.  
+	<input type="checkbox" checked>
+-----------------------------------------------------------------
+#### Selectors in CSS 
+*  /* elements*/  li{}
+*  /* class*/    .hello{}
+*  /* id */       #name{}
+   *selector applies to whole page 
+*  /* star*/   *{
+		border: 1px solid lightgrey;	
+} 
+*  Descendended selector: It takes two or more elememt tag name and you select them together. 
+    -  For instance, >   li a{ 
+    				color: red;
+			}    HTML
+<ul>
+  <li>One</li>
+  <li>Two!</li>
+  <li>Three</li>
+</ul>
+       will select all <a> inside <li>
+    -  li .hello {} will select all hello inside li
+	
+*   Adjacent selector 
+  The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.
+  /* Paragraphs that come immediately after any image */
+img + p {
+  font-weight: bold;
+}
+Syntax
+former_element + target_element { style properties }
+CSS Example
+li:first-of-type + li {
+  color: red;
+}
+HTML
+<ul>
+  <li>One</li>
+  <li>Two!</li>   /*red*/ 
+  <li>Three</li>
+</ul>
+
+
+The CSS attribute selector matches elements based on the presence or value of a given attribute.
+/* <a> elements with an href matching "https://www.goole.com" */
+a[href="https://www.google.com"] {
+  color: green;
+}
+ another example: 
+	input[type="checkbox"]{
+	background:blue;
+	}
+
+-------------------------------------------------------------
+
+CSS :nth-of-type() Selector: 
+1.	ul:nth-of-type(3){
+	background: purple;
+	}
+2.   Specify a background color for every <p> element that is the second p element of its parent:
+	p:nth-of-type(2) {
+	  background: red;
+	}
+  for selection of even number: 
+	p:nth-of-type(2) {
+	  background: red;
+	}
+
+Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
