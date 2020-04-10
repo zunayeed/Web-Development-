@@ -2,5 +2,6 @@
 - variables(var)
 - methods
   -  console.log(), 
-  -  prompt();
+  -  prompt(),
   -  alert() 
+    - Numbers
