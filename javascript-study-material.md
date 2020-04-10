@@ -25,5 +25,6 @@
   -  kebab-case(dash between words)
 - Comments in js: //(double forwardslash)
 ###  Built-in methods: 
-- clear()
- 
+- clear() // to clear console
+- alert("hello there"); // popup window will appaer at chrome saying hello world
+  - can do maths also : `alert(2*3) // popup window saying 6 will appear `
