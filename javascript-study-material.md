@@ -23,5 +23,7 @@
   -  camelCase(java scripts supports camelCase)
   -  snake_case(underscore between words)
   -  kebab-case(dash between words)
-- Comments in js: //
+- Comments in js: //(double forwardslash)
+###  Built-in methods: 
+- clear()
  
