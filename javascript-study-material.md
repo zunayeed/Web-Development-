@@ -1,6 +1,6 @@
 - Primitives(5)
 - variables(var)
 - methods
-        -  console.log(), 
-        -  prompt();
-        -  alert() 
+  -  console.log(), 
+  -  prompt();
+  -  alert() 
