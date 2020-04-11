@@ -45,4 +45,12 @@ console.log("Also great to meet you "+ userName);
 	<script src = "script.js" type="text/javascript"></script>
 </head>
 ```
+### Example of javascript get user name and age, then  show it to console
+```javascript
+var firstName = prompt("What is your first name? ");
+var lastName = prompt("What is your last name? "); 
+var age = prompt("what is your age?");
+console.log("Your full name is "+ firstName + " " + lastName );
+console.log("you are "+ age +" years old" );
 
+```
