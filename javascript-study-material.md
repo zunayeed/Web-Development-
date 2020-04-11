@@ -30,5 +30,5 @@
   - can do maths also : `alert(2*3) // popup window saying 6 will appear `
 - console.log("Hello"); // it will make the result appear in console
 - use to prompt the user with:   `prompt("what is your name?")// value displayed in console`
-  - can save the prompt valuein var: `var userName = prompt("What is your name? ");
+  - can save the prompt valuein var: `var userName = prompt("What is your name? ");`
 
