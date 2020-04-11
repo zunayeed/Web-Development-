@@ -116,7 +116,7 @@ alert("you are "+ totalDays+ " alive");
 	  console.log("Your age is a perfect square!");
 	}
    ```
-     ### Loop: 
+     ### Loop: [Link of Introduction to loops](http://webdev.slides.com/coltsteele/loops-58#/1)
  *DRY: Don't Repeat Yourself We want to keep our code as DRY as possible.  It saves us a lot of time and makes our code cleaner.
    
  
