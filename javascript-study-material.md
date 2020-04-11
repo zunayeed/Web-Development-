@@ -50,7 +50,7 @@ console.log("Also great to meet you "+ userName);
 var firstName = prompt("What is your first name? ");
 var lastName = prompt("What is your last name? "); 
 var age = prompt("what is your age?");
-console.log("Your full name is "+ firstName + " " + lastName );
+var fullName = firstName + " " + lastName;
+console.log("Your full name is "+ fullName );
 console.log("you are "+ age +" years old" );
-
 ```
