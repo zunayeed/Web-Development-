@@ -72,6 +72,13 @@ alert("you are "+ totalDays+ " alive");
   - for loops 
 * Objective 4: Translate between for and while loops
  ---
- he
+ * "==" performs type coercions
+ * Identity / strict equality (===):The identity operator returns true if the operands are strictly equal  with no type conversion.
+   - main difference between "==" and "===" operator is that formerly compares variable by making type correction e.g. if you compare a number with a string with numeric literal, == allows that, but === doesn't allow that, because it not only checks the value but also type of two variable, if two variables are not of the same type "===" return false, while "==" return true. 
+   - 3 === 3   // true
+   - 3 === '3' // false
+
+
+   
  
 
