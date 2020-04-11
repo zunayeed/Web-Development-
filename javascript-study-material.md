@@ -90,8 +90,7 @@ alert("you are "+ totalDays+ " alive");
    null == undefined    //true
    NaN == NaN           //false
    ```
-
-
+   - [Logical operator](http://webdev.slides.com/coltsteele/deck-4-47#/5)
    
  
 
