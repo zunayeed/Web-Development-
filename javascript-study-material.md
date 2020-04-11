@@ -32,7 +32,7 @@
 - use to prompt the user with:   `prompt("what is your name?")// value displayed in console`
   - can save the prompt valuein var: `var userName = prompt("What is your name? ");`
 ### JavaScripts 
-```javascripts
+```javascript
 //alert("Hello from JS file");
 var userName = prompt("What is your name");
 alert("Nice to meet you, "+ userName);
