@@ -31,4 +31,11 @@
 - console.log("Hello"); // it will make the result appear in console
 - use to prompt the user with:   `prompt("what is your name?")// value displayed in console`
   - can save the prompt valuein var: `var userName = prompt("What is your name? ");`
+### JavaScripts 
+```javascripts
+//alert("Hello from JS file");
+var userName = prompt("What is your name");
+alert("Nice to meet you, "+ userName);
+console.log("Also great to meet you "+ userName);
+```
 
