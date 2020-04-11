@@ -70,5 +70,7 @@ alert("you are "+ totalDays+ " alive");
   - while loops
   - for loops 
 * Objective 4: Translate between for and while loops
- 
+ ---
+ he
+ ---
 
