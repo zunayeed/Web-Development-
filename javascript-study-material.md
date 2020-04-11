@@ -85,6 +85,10 @@ alert("you are "+ totalDays+ " alive");
    var y = null; 
    y == undefined //true
    y === undefined //false
+   true == "1"          //true
+   0 == false           //true
+   null == undefined    //true
+   NaN == NaN           //false
    ```
 
 
