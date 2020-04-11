@@ -90,7 +90,8 @@ alert("you are "+ totalDays+ " alive");
    null == undefined    //true
    NaN == NaN           //false
    ```
-   - [Logical operator](http://webdev.slides.com/coltsteele/deck-4-47#/5)
+   - [Logical operator slides Link](http://webdev.slides.com/coltsteele/deck-4-47#/5)
+   - Truthy and Falsy in boolean context: Values that aren't actually true or false, are still inherently "truthy" or "falsey" when evaluated in a boolean context
    
  
 
