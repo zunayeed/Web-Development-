@@ -91,7 +91,10 @@ alert("you are "+ totalDays+ " alive");
    NaN == NaN           //false
    ```
    - [Logical operator slides Link](http://webdev.slides.com/coltsteele/deck-4-47#/5)
-   - Truthy and Falsy in boolean context: Values that aren't actually true or false, are still inherently "truthy" or "falsey" when evaluated in a boolean context
+   - Truthy and Falsy in boolean context: Values that aren't actually true or false, are still inherently "truthy" or "falsey" when evaluated in a boolean context. in console, it can be checked with negate operator !"hello"
+   - Falsy Values:false,0,"",null,undefined,NaN, 
+   - Everything Else Is Truthy
+       
    
  
 
