@@ -54,3 +54,9 @@ var fullName = firstName + " " + lastName;
 console.log("Your full name is "+ fullName );
 console.log("you are "+ age +" years old" );
 ```
+### Age Calculator: ageCalculator.js file
+```javascript 
+var age = prompt("Enter your age"); 
+var totalDays= age*365 ; 
+alert("you are "+ totalDays+ " alive");
+```
