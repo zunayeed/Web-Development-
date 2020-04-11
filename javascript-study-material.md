@@ -60,9 +60,15 @@ var age = prompt("Enter your age");
 var totalDays= age*365 ; 
 alert("you are "+ totalDays+ " alive");
 ```
-## Javascript Basics: Control Flow
-* Objectives 1: Conditional statements
-* Objective  2: loops
-  -
-  - 
+## Javascript Basics: Control Flow(conditional statements and loops)
+* Objective 1: Evaluate complex logical statements: 
+  - Boolean operator
+  - Logical operators 
+  - Comparator operators 
+* Objective 2: write 3 part JS Conditional statement(if-elseif-esle)
+* Objective 3: Write js loops 
+  - while loops
+  - for loops 
+* Objective 4: Translate between for and while loops
+ 
 
