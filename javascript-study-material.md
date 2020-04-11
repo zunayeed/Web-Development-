@@ -61,8 +61,8 @@ var totalDays= age*365 ;
 alert("you are "+ totalDays+ " alive");
 ```
 ## Javascript Basics: Control Flow
-*Objectives 1: Conditional statements
-*Objective  2: loops
+* Objectives 1: Conditional statements
+* Objective  2: loops
   -
   - 
 
