@@ -61,6 +61,7 @@ var totalDays= age*365 ;
 alert("you are "+ totalDays+ " alive");
 ```
 ## Javascript Basics: Control Flow(conditional statements and loops)
+---
 * Objective 1: Evaluate complex logical statements: 
   - Boolean operator
   - Logical operators 
@@ -72,5 +73,5 @@ alert("you are "+ totalDays+ " alive");
 * Objective 4: Translate between for and while loops
  ---
  he
- ---
+ 
 
