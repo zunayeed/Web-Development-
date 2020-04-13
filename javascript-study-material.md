@@ -166,25 +166,25 @@ alert("you are "+ totalDays+ " alive");
    ------------------------------------------------------------------------------------------
   --- 
   ```javascript
-        function sumArray(arr){
-        var sum = 0 ; 
-        arr.forEach(function(element){
-	total += element;
-				});
-		}
+			function sumArray(arr){
+			var sum = 0 ; 
+			arr.forEach(function(element){
+			total += element;
+						});
+				}
      ```
   
 ---
 
 
 ```javascript
-       function max(arr){
-	var max = arr[0] ;
-	for( var i =1; i < arr.length; i++){
-		if(arr[i]>max){
-			max = arr[i];
-		}
-	}
-	return max ; 
-       }
+		       function max(arr){
+			var max = arr[0] ;
+			for( var i =1; i < arr.length; i++){
+				if(arr[i]>max){
+					max = arr[i];
+				}
+			}
+			return max ; 
+		       }
 ```
