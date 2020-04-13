@@ -151,11 +151,8 @@ alert("you are "+ totalDays+ " alive");
 	}
 	return true; 
 }
-
     isUniform([3,6,2,5]);
     isUniform([3,3,3,3]);
-    
-    
     
     function isUniform(arr){
 	var first = arr[0];
