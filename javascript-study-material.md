@@ -127,7 +127,11 @@ alert("you are "+ totalDays+ " alive");
    } 
    // to call 
    sayHi(); 
- ```
+   ```
  
    ### Array 
+   - reverse function
+   ```javascript
+   
+   ```
   
