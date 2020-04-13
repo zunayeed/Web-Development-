@@ -164,7 +164,7 @@ alert("you are "+ totalDays+ " alive");
    
    
    ------------------------------------------------------------------------------------------
-  --- 
+   
   ```javascript
 			function sumArray(arr){
 			var sum = 0 ; 
@@ -177,7 +177,7 @@ alert("you are "+ totalDays+ " alive");
 ---
 
 
-```javascript
+   ```javascript
 		       function max(arr){
 			var max = arr[0] ;
 			for( var i =1; i < arr.length; i++){
@@ -187,4 +187,4 @@ alert("you are "+ totalDays+ " alive");
 			}
 			return max ; 
 		       }
-```
+    ```
