@@ -141,5 +141,33 @@ alert("you are "+ totalDays+ " alive");
      }
    }
     printReverse([3,6,2,5]);
+    // *** isUnifrom() starts ***
+   function isUniform(arr){
+	//var first = arr[0];
+	for(var i =0; i< arr.length-1; i++){
+		if(arr[i] !== arr[i+1]){
+			return false ; 
+		}
+	}
+	return true; 
+}
+
+    isUniform([3,6,2,5]);
+    isUniform([3,3,3,3]);
+    
+    
+    
+    function isUniform(arr){
+	var first = arr[0];
+	for(var i =0; i< arr.length-1; i++){
+		if(arr[i] !== first){
+			return false ; 
+		}
+	}
+	return true; 
+    }
+    
+    
+    
    ```
   
