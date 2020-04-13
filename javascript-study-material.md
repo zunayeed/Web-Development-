@@ -164,12 +164,13 @@ alert("you are "+ totalDays+ " alive");
 	return true; 
     }   
    ```
-    ```javascript
-   function sumArray(arr){
- var sum = 0 ; 
-	arr.forEach(function(element){
-		total += element;
-		});
-}
-    ```
+   
+     ```javascript
+		   function sumArray(arr){
+		 var sum = 0 ; 
+			arr.forEach(function(element){
+				total += element;
+				});
+		}
+     ```
   
