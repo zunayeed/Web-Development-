@@ -140,5 +140,6 @@ alert("you are "+ totalDays+ " alive");
      console.log(arr[i]);
      }
    }
+    printReverse([3,6,2,5]);
    ```
   
