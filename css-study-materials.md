@@ -76,21 +76,26 @@ h3 {color: #FF1493;}
 # + String of 6 hexadecimal numbers(from 0-F)
 #### Color in CSS: RGBA
 3 channels: Red, Green, and Blue.  Each ranges from 0 - 255
+```css
 h1 {color: rgb(0,255,0);}
 h2 { color: rgb(100, 0, 100);}
 h3 {color: rgb(11, 99, 150);}
+```
 #### Color in CSS RGBA
-Just like RGB, but with an alpha(transparency) channel.  Ranges from 0.0 - 1.0
+> Just like RGB, but with an alpha(transparency) channel.  Ranges from 0.0 - 1.0
+```css
 h1 {color: rgba(11, 99, 150, 1);}
 h2 {color: rgba(11, 99, 150, .6);}
 h3 {color: rgba(11, 99, 150, .2);}
-## mix of color syntax combiration
+```
+## mix of color syntax combiration:
+```css
 h1{color:#FF001A;}
 li{color:rgb(0,255,0);}
 h4 {color:rgba(0,255,200,.5);}
-
+```
 ####  Color and Background
-## Use 'color' to set text color and 'background' for background color
+## Use 'color' attribute to set text color and 'background' attribute for background color
 
 body {background: #95a5a6;}
 div{background: #3498db;}
@@ -122,7 +127,9 @@ background-size:cover// it will ensure taking up entire body
    ...................---------------------------------------
    
    
- Aboutme.htlm:   
+### Aboutme.htlm: 
+
+```html
    <!DOCTYPE html>
 <html>
 <head>
@@ -140,6 +147,8 @@ background-size:cover// it will ensure taking up entire body
 	</ul>
 </body>
 </html>
+```
+
 --------------------------------------------------------------------
 in app.css 
 
