@@ -40,7 +40,7 @@ property:value;
 		</style>
 	</head>
 ```
-3. **writing css on a separate `.css` file,  and connecting it with a `<link>` tag inside `<head>` tag **. For example for app.css file, 
+3. ** writing css on a separate `.css` file,  and connecting it with a `<link>` tag inside `<head>` tag **. For example for app.css file, 
 Separate file using `<link>` is the most preferred way of writing. `<link>` tag inside `<head>` tag should be:
 	
  ```css
