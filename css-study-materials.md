@@ -296,17 +296,19 @@ HTML
 ## Attribute Selector 
 The CSS attribute selector matches elements based on the presence or value of a given attribute
 * **it can be used to select images of a particular source or all inputs of a particular type**
-`/* <a> elements with an href attribite matching "https://www.goole.com" */`
+* `/* <a> elements with an href attribite matching "https://www.goole.com" */`
 
-`a[href="https://www.google.com"] {
+```css
+a[href="https://www.google.com"] {
   color: green;
-}`
- another example: 
-	`input[type="checkbox"]{
-	background:blue;
-	}`
-
--------------------------------------------------------------
+}
+```
+ * another example: 
+```css
+input[type="checkbox"]{
+background:blue;
+}
+```
 
 CSS :nth-of-type() Selector: 
 1.	ul:nth-of-type(3){
