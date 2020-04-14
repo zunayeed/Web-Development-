@@ -17,7 +17,7 @@
 
  2.  <style> Tag: need to be placed inside <head> tag
 	
-	```html
+    ```html
 		<html>
 		<head>
 		    <title>About Rusty</title>
@@ -31,7 +31,7 @@
 		 selector{
 		 property:value;
 		 }
-	 ```
+    ```
 			
  * we want our css to be self contained in its own file. Htlm is structure and css is style
  
