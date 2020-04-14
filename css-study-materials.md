@@ -50,7 +50,8 @@ property:value;
 ```
 *  writing css on a separate .css file,  and connecting it with a <link> tag inside <head> tag . For example for app.css file, 
  link tag inside <head> tag should be:
- 
+	
+ ```css
  <link rel="stylesheet" type="text/css" href="app.css">
  
  inside app.css file : 
@@ -64,6 +65,7 @@ li{
 h4 {
 	color:purple;
 }
+```
 
 # Color
 
@@ -96,11 +98,11 @@ h4 {color:rgba(0,255,200,.5);}
 ```
 ####  Color and Background
 ## Use 'color' attribute to set text color and 'background' attribute for background color
-
+```css
 body {background: #95a5a6;}
 div{background: #3498db;}
 p {color: #ecf0f1;}
-
+```
 * Background Image
 The background property can also set a background image
 body {
@@ -112,8 +114,8 @@ background-size:cover// it will ensure taking up entire body
  }
 *  border color in css has 3 different parts: 
      -  width, 
-     -  color,
-     -  style
+     -  style,
+     -  color
      Example: 
  h1{
 	color:#FF001A;
@@ -121,9 +123,12 @@ background-size:cover// it will ensure taking up entire body
 	border-width: 5px ; 
 	border-style: solid;
 }
-* shortcut syntax of border:  border: width style color;
-   -  example: border: 5px solid purple;
-   -   border: 2px dashed purple;
+* shortcut syntax of border:  **border: width style color;**
+   -  example:
+   ```css
+       border: 5px solid purple;
+       border: 2px dashed purple;
+  ```
    ...................---------------------------------------
    
    
@@ -151,6 +156,7 @@ background-size:cover// it will ensure taking up entire body
 
 --------------------------------------------------------------------
 in app.css 
+```css
 
 h1{
 	color:#FF001A;
@@ -174,7 +180,7 @@ body {
     background-size: cover;
     */
 }
-   
+```   
    
 ----------------------------------------------------------------------   
 
@@ -251,10 +257,12 @@ Select all elements with a given class. If we want to select half of the li in o
 *  /* star*/   *{
 		border: 1px solid lightgrey;	
 } 
-*  Descendended selector: It takes two or more elememt tag name and you select them together. 
-    -  For instance, >   li a{ 
-    				color: red;
-			}    HTML
+*  **Descendended selector:** 
+    -  It takes two or more elememt tag name and you select them together. 
+    -  For instance, if we want to select all <a> tag inside <li> tag: 
+       li a{ 
+    	   color: red;
+	   }    HTML
 <ul>
   <li>One</li>
   <li>Two!</li>
