@@ -146,8 +146,7 @@ background-size:cover// it will ensure taking up entire body
 </html>
 ```
 
---------------------------------------------------------------------
-in app.css 
+*  Inside app.css :
 ```css
 
 h1{
@@ -246,7 +245,9 @@ Select all elements with a given class. If we want to select half of the li in o
 *  /* id */       `#name{}`
    `*` selector applies to whole page 
 *  /* star*/    `*{border: 1px solid lightgrey;} `
-* /*Descended Selector or nested selector */    `li .hello {}`
+* /*Descended  or nested  */    `li .hello {font-size: 25px;}`
+*  /*Adjacent selector*/  ` h4+ul{ border: 4px solid red;}`
+
 
 ##  **Descendended selector(nested selector):** 
    -  It takes two or more elememt tag name and you select them together. 
@@ -292,9 +293,10 @@ HTML
   <li>Three</li>
 </ul>
 ```
-* Attribute Selector 
-The CSS attribute selector matches elements based on the presence or value of a given attribute.
-/* <a> elements with an href matching "https://www.goole.com" */
+## Attribute Selector 
+The CSS attribute selector matches elements based on the presence or value of a given attribute
+* **it can be used to select images of a particular source or all inputs of a particular type**
+`/* <a> elements with an href attribite matching "https://www.goole.com" */`
 
 `a[href="https://www.google.com"] {
   color: green;
