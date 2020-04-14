@@ -8,7 +8,7 @@
  * /*Give All img's a 3px red border*/ img {  border-color: red;  border-width: 3px; 
  
  ## where to write styles? 
-  1.  **Inline**000
+  1.  **Inline**
        ```html
 		<h3 style="color: pink;">blah blah blah </h3>
 		<h3 style="color: pink;">knock knock </h3>
@@ -40,8 +40,8 @@ property:value;
 		</style>
 	</head>
 ```
-*  writing css on a separate .css file,  and connecting it with a <link> tag inside <head> tag . For example for app.css file, 
- link tag inside <head> tag should be:
+3. **writing css on a separate `.css` file,  and connecting it with a `<link>` tag inside `<head>` tag **. For example for app.css file, 
+Separate file using `<link>` is the most preferred way of writing. `<link>` tag inside `<head>` tag should be:
 	
  ```css
  <link rel="stylesheet" type="text/css" href="app.css">
