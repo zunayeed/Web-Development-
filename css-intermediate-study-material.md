@@ -16,7 +16,8 @@ h1 {font-size: 5.0em;}/*five times larger than body*/
 p {font-size: 2.0em;} 
 span {font-size: 2.0em;}/*change the font to double based on context*/
 
-/*font-weight*/
+/*font-weight: how thick the fonts are: bold, normal, 
+some fonts allow you to use number between 100 to 800 with 100 increment*/
 p{font-weight: normal;}
 
 /*line-height*/
