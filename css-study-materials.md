@@ -9,11 +9,11 @@
  
  ## where to write styles? 
   1.  Inline
-      ```html
+       ```html
 		<h3 style="color: pink;">blah blah blah </h3>
 		<h3 style="color: pink;">knock knock </h3>
 		<p style="color: yellow;">blah blah blah </p>
-      ```
+        ```
 
  2.  <style> Tag: need to be placed inside <head> tag
 	
