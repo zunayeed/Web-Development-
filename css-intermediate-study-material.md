@@ -24,7 +24,7 @@ p{font-weight: normal;}
 /*line-height: It confirms the space between lines*/
 p {line-height: 1.5;}
 
-/*text-align: It control how the text of a given element is controlled: Right, Center, Left*/
+/*text-align: It control how the text of a given element is controlled: right, center, left*/
 h1 {text-align: right;}
 p {text-align: center;}
 
@@ -32,6 +32,16 @@ p {text-align: center;}
 p {text-decoration: underline;}
 h1 {text-decoration: line-through;}
 
-
-
 ```
+
+## Custom google fonts: 
+* Step 1: add link in `<head>` tag: To embed a font, copy the code into the <head> of your html from embeded
+```html
+<head>
+	<title>Fonts</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+```
+* Step 2: in .css file address the font property or CSS rules to specify families from website
+/*font-family: 'Indie Flower', cursive; */
