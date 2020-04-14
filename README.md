@@ -1,2 +1,5 @@
-# Web-Development-
-This Repository Focuses on web development Projects
+# Web-Development
+This Repository Focuses on web development
+## html 
+## CSS
+## JavaScripts
