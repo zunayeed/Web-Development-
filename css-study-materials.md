@@ -219,7 +219,7 @@ Selects an element with a given ID.  Only one per page!We can have multiple id i
 #  Class Selector 
 Select all elements with a given class. If we want to select half of the li in one way, and other half of the li in different ways, we go for class selector. It is just like an id and we can apply it to any number of times.
 
-----------------------------------------------------------------
+```html
 <ul>
 		<li class = "completed">
 			<input type="checkbox" name=""> Buy Groceries
@@ -231,14 +231,13 @@ Select all elements with a given class. If we want to select half of the li in o
 			<input type="checkbox" name=""> Study CSS
 		</li>
 	</ul>
-	--------------------------------------
+```
+
+```css
 .completed{
 	text-decoration: line-through;
 }
-------------------------------------------------------
-
-
-
+```
 -  The text-decoration property specifies the decoration added to text.It can be: 
 *  text-decoration: overline;
 *  text-decoration: line-through;
