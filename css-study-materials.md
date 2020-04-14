@@ -16,19 +16,23 @@
       ```
 
  2.  <style> Tag: need to be placed inside <head> tag
-<html>
-<head>
-    <title>About Rusty</title>
-    <style type="text/css">
-        li {
-	    color: red;
-	}
-    </style>
-</head>
-  here basic structure is 
- selector{
- property:value;
- }
+	
+	```html
+		<html>
+		<head>
+		    <title>About Rusty</title>
+		    <style type="text/css">
+			li {
+			    color: red;
+			}
+		    </style>
+		</head>
+		  here basic structure is 
+		 selector{
+		 property:value;
+		 }
+	 ```
+			
  * we want our css to be self contained in its own file. Htlm is structure and css is style
  
  <head>
