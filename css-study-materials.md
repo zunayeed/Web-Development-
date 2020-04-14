@@ -240,17 +240,14 @@ Select all elements with a given class. If we want to select half of the li in o
 	you can add  "checked" to checkbox in order to make the box checked while loading the page.  
 	<input type="checkbox" checked>
 -----------------------------------------------------------------
-#### Selectors in CSS 
+#  Selectors in CSS 
 *  /* elements*/  `li{}`
 *  /* class*/    `.hello{}`
 *  /* id */       `#name{}`
-   *selector applies to whole page 
-*  /* star*/   
-``` css 
-*{
-border: 1px solid lightgrey;
-} 
-```
+   `*` selector applies to whole page 
+*  /* star*/    `*{border: 1px solid lightgrey;} `
+* /*Descended Selector or nested selector */    `li .hello {}`
+
 ##  **Descendended selector(nested selector):** 
    -  It takes two or more elememt tag name and you select them together. 
    -  For instance, if we want to select all  `<a>`  tag inside ` <li> ` tag: 
