@@ -51,4 +51,11 @@ p {font-family: Raleway;}
 h1 {font-family: Indie Flower;}
 
 ```
+# Box Model( padding, Marging, Border and more ) 
+- Box Model
+"In a document, each element is represented as a rectangular box.
+
+In CSS, each of these rectangular boxes is described using the standard box model.
+
+Each box has four edges: the margin edge, border edge, padding edge, and content edge."
 
