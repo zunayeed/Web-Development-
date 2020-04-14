@@ -271,25 +271,30 @@ color: red;
   Above  code will select all `<a>` inside `<li>`
     -  `li .hello {}` will select all hello inside `<li>`
 	
-*   Adjacent selector: Adjacent selector will allow us to select element that come after another element, but not nested insie, it will allow us to select siblings.  
+## **Adjacent selector**: Adjacent selector will allow us to select element that come after another element, but not nested insie, it will allow us to select siblings.  
   The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.
-  /* Paragraphs that come immediately after any image */
+  ```css
+ /* Paragraphs that come immediately after any image */
 img + p {
   font-weight: bold;
 }
+```
 Syntax
 former_element + target_element { style properties }
 CSS Example
+```css
 li:first-of-type + li {
   color: red;
 }
+```
 HTML
+```html
 <ul>
   <li>One</li>
   <li>Two!</li>   /*red*/ 
   <li>Three</li>
 </ul>
-
+```
 * Attribute Selector 
 The CSS attribute selector matches elements based on the presence or value of a given attribute.
 /* <a> elements with an href matching "https://www.goole.com" */
