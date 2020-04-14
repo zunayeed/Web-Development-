@@ -8,32 +8,24 @@
  * /*Give All img's a 3px red border*/ img {  border-color: red;  border-width: 3px; 
  
  ## where to write styles? 
-  1.  Inline
+  1.  **Inline**000
        ```html
 		<h3 style="color: pink;">blah blah blah </h3>
 		<h3 style="color: pink;">knock knock </h3>
 		<p style="color: yellow;">blah blah blah </p>
         ```
 
- 2.  __<style>__ Tag: need to be placed inside <head> tag
+ 2.  __`<style>`__ Tag: need to be placed inside `<head>` tag
+  * we want our css to be self contained in its own file. Htlm is structure and css is `<style>`
 		
-```html
-<html>
-<head>
-	<title>About Rusty</title>
-	<style type="text/css">
-		li {
-		color: red;
-		}
-	</style>	
-</head>
-// selector basic structure
+```css
+// selector basic structure inside style tag and link tag
 selector{
 property:value;
 }
 ```
 			
- * we want our css to be self contained in its own file. Htlm is structure and css is style
+ 
  
  ```html
 	 <head>
