@@ -12,8 +12,24 @@ h1 {font-family: Georgia;}
 
 /*font-size*/
 body {font-size: 10px;}
-h1 {font-size: 5.0em;}
-p {font-size: 2.0em;}
-span {font-size: 2.0em;}
+h1 {font-size: 5.0em;}/*five times larger than body*/
+p {font-size: 2.0em;} 
+span {font-size: 2.0em;}/*change the font to double based on context*/
+
+/*font-weight*/
+p{font-weight: normal;}
+
+/*line-height*/
+p {line-height: 1.5;}
+
+/*text-align*/
+h1 {text-align: right;}
+p {text-align: center;}
+
+/*text-decoration*/
+p {text-decoration: underline;}
+h1 {text-decoration: line-through;}
+
+
 
 ```
