@@ -325,6 +325,17 @@ CSS :nth-of-type() Selector:
 
 Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
 
+##  :checked selector
+The :checked CSS pseudo-class selector represents any radio `(<input type="radio">)`, checkbox `(<input type="checkbox">)`, or option `(<option> in a <select>)` element that is checked or toggled to an on state.
+```css
+/* Matches any checked/selected radio, checkbox, or option */
+input[type="checkbox"]:checked {
+  margin-left: 25px;
+  border: 1px solid blue;
+}
+```
+
+
 ```css
 /* Give the <body> element a background of #bdc3c7*/
 body{
@@ -392,6 +403,38 @@ div:nth-of-type(3) em{
 	color: white;
 	font-size: 20px;
 }
+
+
+/*BONUS CHALLENGES*/
+/*You may need to research some other selectors and properties*/
+ 
+/*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
+/*It will add some space on the left margin of checkbox when checked*/
+ input[type="checkbox"]:checked {
+	margin-left: 50px;
+}
+
+/* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
+label {
+  text-transform: uppercase;
+}
+
+/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+#special:first-letter {
+  color: green;
+  font-size: 100px;
+}
+
+/*Make the <h1> element's color change to blue when hovered over */
+h1:hover {
+  color: blue;
+}
+
+/*Make the <a> element's that have been visited gray */
+a:visited {
+  color: gray;
+}
+
 
 
 ```
