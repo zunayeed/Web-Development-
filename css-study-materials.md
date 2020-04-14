@@ -254,16 +254,19 @@ Select all elements with a given class. If we want to select half of the li in o
 *  /* class*/    `.hello{}`
 *  /* id */       `#name{}`
    *selector applies to whole page 
-*  /* star*/   `*{
-		border: 1px solid lightgrey;	
-                 } `
+*  /* star*/   
+``` css 
+*{
+border: 1px solid lightgrey;
+} 
+```
 ##  **Descendended selector:** 
    -  It takes two or more elememt tag name and you select them together. 
    -  For instance, if we want to select all  `<a>`  tag inside ` <li> ` tag: 
 ```css  
-           li a{ 
-    	   color: red;
-	   }  
+li a{ 
+color: red;
+}  
 ```  
 
 ```html
