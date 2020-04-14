@@ -44,4 +44,5 @@ h1 {text-decoration: line-through;}
 </head>
 ```
 * Step 2: in .css file address the font property or CSS rules to specify families from website
-/*font-family: 'Indie Flower', cursive; */
+	
+    /*font-family: 'Indie Flower', cursive; */
