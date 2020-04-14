@@ -15,19 +15,19 @@
 		<p style="color: yellow;">blah blah blah </p>
         ```
 
- 2.  <style> Tag: need to be placed inside <head> tag
+ 2.  __<style>__ Tag: need to be placed inside <head> tag
 		
 ```html
 <html>
 <head>
-<title>About Rusty</title>
-<style type="text/css">
-li {
-color: red;
-}
-</style>
+	<title>About Rusty</title>
+	<style type="text/css">
+		li {
+		color: red;
+		}
+	</style>	
 </head>
-here basic structure is 
+// selector basic structure
 selector{
 property:value;
 }
@@ -35,18 +35,19 @@ property:value;
 			
  * we want our css to be self contained in its own file. Htlm is structure and css is style
  
- <head>
-	<title>About Zunayeed</title>
-	<style type="text/css">
-		h1{
-			color: red;
-		}
-		li{
-			color: orange;
-		}
-	</style>
-</head>
-
+ ```html
+	 <head>
+		<title>About Zunayeed</title>
+		<style type="text/css">
+			h1{
+				color: red;
+			}
+			li{
+				color: orange;
+			}
+		</style>
+	</head>
+```
 *  writing css on a separate .css file,  and connecting it with a <link> tag inside <head> tag . For example for app.css file, 
  link tag inside <head> tag should be:
  
