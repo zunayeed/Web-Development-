@@ -324,3 +324,77 @@ CSS :nth-of-type() Selector:
 	}
 
 Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors.
+
+```css
+/* Give the <body> element a background of #bdc3c7*/
+body{
+	background: #bdc3c7 ;
+}
+
+/* Make the <h1> element #9b59b6*/
+ h1{
+ 	color:#9b59b6;
+ }
+
+/* Make all <h2> elements orange */
+
+h2{
+	color:orange;
+}
+/* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
+li{
+	color:#0000ff;
+}
+
+/*Change the background on every paragraph to be yellow*/
+
+p{
+	background: yellow;
+
+}
+/*Make all inputs have a 3px red border*/
+ input{
+ 	border: 3px solid red;
+ }
+
+/* Give everything with the class 'hello' a white background*/
+.hello{
+	background: white;
+}
+
+/* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
+#special{
+	border: 2px solid rgb(0,12,255);
+}
+
+/*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
+
+div p {
+	font-size: 25px;
+}
+/*Make only inputs with type 'text' have a gray background*/
+input[type = "text"]{
+	background: gray; 
+}
+
+/* Give both <p>'s inside the 3rd <div> a pink background*/
+ div:nth-of-type(3) p{
+ 	background-color:pink;
+ }
+ 
+/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+ div:nth-of-type(3) p:nth-of-type(2){
+ 	border: 5px solid white;
+ } 
+
+/* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
+div:nth-of-type(3) em{
+	color: white;
+	font-size: 20px;
+}
+
+
+```
+
+
+
