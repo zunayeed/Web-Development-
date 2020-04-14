@@ -17,13 +17,14 @@ p {font-size: 2.0em;}
 span {font-size: 2.0em;}/*change the font to double based on context*/
 
 /*font-weight: how thick the fonts are: bold, normal, 
-some fonts allow you to use number between 100 to 800 with 100 increment*/
+some fonts allow you to use number between 100 to 800 with 100 increment:100,200,800
+Example: google fonts*/
 p{font-weight: normal;}
 
-/*line-height*/
+/*line-height: It confirms the space between lines*/
 p {line-height: 1.5;}
 
-/*text-align*/
+/*text-align: It control how the text of a given element is controlled: Right, Center, Left*/
 h1 {text-align: right;}
 p {text-align: center;}
 
