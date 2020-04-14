@@ -260,7 +260,7 @@ Select all elements with a given class. If we want to select half of the li in o
 border: 1px solid lightgrey;
 } 
 ```
-##  **Descendended selector:** 
+##  **Descendended selector(nested selector):** 
    -  It takes two or more elememt tag name and you select them together. 
    -  For instance, if we want to select all  `<a>`  tag inside ` <li> ` tag: 
 ```css  
@@ -277,8 +277,8 @@ color: red;
 </ul>
 ```
 
-  Above  code will select all <a> inside <li>
-    -  li .hello {} will select all hello inside li
+  Above  code will select all `<a>` inside `<li>`
+    -  `li .hello {}` will select all hello inside `<li>`
 	
 *   Adjacent selector 
   The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.
