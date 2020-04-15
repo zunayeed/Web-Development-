@@ -59,3 +59,12 @@ In CSS, each of these rectangular boxes is described using the standard box mode
 
 Each box has four edges: the margin edge, border edge, padding edge, and content edge."
 
+Box Model
+**Content**: whatever is written
+**Padding**: space between content and border. it can be top, bottom, right, left
+**Border**: it is width of content plus border
+**Margin**: space outside of border between elements. between the order and outside anything else. If you want two paragraphs to be further apart, use margins
+> width is content(written content) border.
+> without padding, width and border resembles same.
+>  `width <padding <border<margin`
+
