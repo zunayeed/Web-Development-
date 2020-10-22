@@ -74,7 +74,7 @@
 
 </head>
 <body>
-<h1>Hello World</h1>
+<h1>Hello World to universal selectors</h1>
 <p>Every element on on this page will get affected by the style</p>
 <p id="para1">This para with id para1 will get affected by universal selectors as well</p>
 <h5>this heading h5 will also get affected</h5>
@@ -82,3 +82,4 @@
 </body>
 </html>
 ```
+
