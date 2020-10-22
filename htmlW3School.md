@@ -34,3 +34,29 @@
 </body>
 </html>
 ```
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Custom Food Subsidy</title>
+	<style type="text/css">
+		p.center{
+			text-align: center;
+			color:red;
+		}
+		p.large{
+			font-size: 200%;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1 class="center"> This heading will not get affected by heading by class attribute</h1>
+
+    <p class="center">This paragraph will be red and center-aligned.</p>
+    <p class="center large">This paragraph will be red, center aligned, and in a large font size</p>
+
+</body>
+</html>
+```
