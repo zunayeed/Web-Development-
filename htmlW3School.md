@@ -25,7 +25,9 @@
 
     <p>This is a custom food subsidy side for all people. </p>
 
-    <p id ="para2">Id selector uses iid attribute of HTML element to select a specific element. The id of an element is unique within a page, so id selector is used to select one unique element. To select an element with a specific id, write a hash(#) character, followed by the id of the element.</p>
+    <p id ="para2">Id selector uses iid attribute of HTML element to select a specific element. 
+	    The id of an element is unique within a page, so id selector is used to select one unique element.
+	    To select an element with a specific id, write a hash(#) character, followed by the id of the element.</p>
 
     <p class="center">This paragraph will get affected by class attribute
     
