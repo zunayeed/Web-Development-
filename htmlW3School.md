@@ -140,6 +140,7 @@ h2,p,h5{
 </body>
 </html>
 ```
+- Inline styles are defined within the "style" attribute of the relevant element:
 ```html
 <!DOCTYPE html>
 <html>
