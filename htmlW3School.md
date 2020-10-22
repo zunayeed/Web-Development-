@@ -107,3 +107,38 @@
 </html>
 ```
 
+-------------------------------------------------
+## external css file 
+- Inside mystyle.css file : in html link attribure is used to address the file
+```css
+body{
+	background-color: lightblue;
+}
+h1{
+	color: navy;
+}
+h2,p,h5{
+		text-align: center;
+		color:red;
+	}
+```
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Custom html</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<h3>external html are defined with link tag inside head section of html page</h3>
+<h1>Hello World of group selectors</h1>
+<h2>Smaller heading of selectors</h2>
+<p>this is a paragraph to demonstrate groupnig selectors of different elements</p>
+<h5>this heading h5 will also get affected</h5>
+
+</body>
+</html>
+```
+
+
+
