@@ -116,6 +116,7 @@ body{
 }
 h1{
 	color: navy;
+	margin-left:20px;
 }
 h2,p,h5{
 		text-align: center;
@@ -139,6 +140,17 @@ h2,p,h5{
 </body>
 </html>
 ```
-
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inline Style CSS</title>
+</head>
+<body>
+<h1 style="color:blue;text-align: center">This is a heading</h1>
+<p style="color:red">This is a paragraph</p>
+</body>
+</html>
+```
 
 
