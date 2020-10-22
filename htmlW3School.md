@@ -82,4 +82,26 @@
 </body>
 </html>
 ```
+```html 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Custom Food Subsidy</title>
+	<style type="text/css">
+	h1,h2,p,h5{
+		text-align: center;
+		color:red;
+	}
+	</style>
+
+</head>
+<body>
+<h1>Hello World of group selectors</h1>
+<h2>Smaller heading of selectors</h2>
+<p>this is a paragraph to demonstrate groupnig selectors of different elements</p>
+<h5>this heading h5 will also get affected</h5>
+
+</body>
+</html>
+```
 
