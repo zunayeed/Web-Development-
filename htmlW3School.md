@@ -153,5 +153,31 @@ h2,p,h5{
 </body>
 </html>
 ```
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>multiple style practice sheet</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<style type="text/css">
+		body{background-color: linen;}
+	</style>
+</head>
+<body style="background-color: lavender">
+	<h1>Multiple style cascaded into one </h1>
+	<p>here the background color of the page is set with inline css, and also with an internal css, and also with external css</p>
 
+</body>
+</html>
+```
+```css
+
+body{
+	background-color: lightblue;
+}
+h1{
+	color: navy;
+	margin-left: 20px;
+}
+```
 
