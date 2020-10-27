@@ -68,3 +68,11 @@ Box Model
 > without padding, width and border resembles same.
 >  `width <padding <border<margin`
 
+## box model additional 
+- [ ] Margin
+- [ ] Outline
+- [ ] Border
+- [ ] Padding
+- [ ] Content
+
+
